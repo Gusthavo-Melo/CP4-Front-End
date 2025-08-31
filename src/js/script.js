@@ -14,11 +14,22 @@ function atualizarBadge() {
   }
 }
 
-function enviarFormulario(event) {
-  event.preventDefault();
-  alert("✅ Obrigado por entrar em contato! Responderemos em breve.");
-  document.getElementById("formContato").reset();
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".needs-validation");
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+
+    if (form.checkValidity()) {
+      alert("Sua mensagem foi enviada com sucesso! Obrigado por entrar em contato.");
+      form.reset(); 
+      form.classList.remove("was-validated"); 
+    } else {
+      form.classList.add("was-validated");
+    }
+  });
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("filter-form");
@@ -56,17 +67,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-(function () {
-  'use strict'
-  const forms = document.querySelectorAll('.needs-validation')
-  Array.from(forms).forEach(form => {
-    form.addEventListener('submit', event => {
-      if (!form.checkValidity()) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-      alert('Mensagem enviada com sucesso! Entraremos em contato em breve.')
-    }, false)
-  })
-})()
