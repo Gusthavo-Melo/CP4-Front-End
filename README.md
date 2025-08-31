@@ -37,6 +37,6 @@ O objetivo é promover produtos sustentáveis e ecológicos, com uma interface *
 - **Google Fonts** → Tipografia
 
 --- 
-### Autor
+## Autor
 
 - Gusthavo Costa de Melo RM: 561330
