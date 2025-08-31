@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrend - Produto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="../../index.html">EcoTrend</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/categorias.html">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/contato.html">Contato</a></li>
+          <li class="nav-item">
+            <a class="nav-link position-relative" href="#">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="carrinhoBadge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success" style="display:none;">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../images/camiseta-sustentavel.jpg" class="img-fluid rounded shadow" alt="Produto Sustentável">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Camiseta Sustentável</h2>
+        <p class="text-muted">Categoria: Utensílios Ecológicos</p>
+        <h3 class="text-success">R$ 89,90</h3>
+        <ul>
+          <li>Material: Algodão reciclado</li>
+          <li>Cor: Branco</li>
+          <li>Tamanhos: P, M, G, GG</li>
+          <li>Marca: EcoWear</li>
+        </ul>
+        
+        <p>
+          Esta camiseta é feita 100% de algodão orgânico e tingimento natural,
+          proporcionando conforto e estilo com responsabilidade ambiental.
+        </p>
+        <button class="btn btn-success btn-lg" onclick="adicionarCarrinho('Garrafa Térmica Sustentável')">
+          <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+        </button>
+      </div>
+    </div>
+
+    <hr class="my-5">
+  </div>
+
+  <footer class="bg-light text-center py-4 mt-5">
+    <p class="mb-1">© 2025 EcoTrend - Todos os direitos reservados</p>
+    <div>
+      <a href="#"><i class="fab fa-instagram me-3"></i></a>
+      <a href="#"><i class="fab fa-facebook me-3"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
