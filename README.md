@@ -34,4 +34,9 @@ O objetivo é promover produtos sustentáveis e ecológicos, com uma interface *
 - **CSS** → Estilos customizados  
 - **Bootstrap** → Layout responsivo e componentes prontos  
 - **Font Awesome** → Ícones  
-- **Google Fonts** → Tipografia  
+- **Google Fonts** → Tipografia
+
+--- 
+### Autor
+
+- Gusthavo Costa de Melo RM: 561330
