@@ -35,8 +35,12 @@ O objetivo é promover produtos sustentáveis e ecológicos, com uma interface *
 - **Bootstrap** → Layout responsivo e componentes prontos  
 - **Font Awesome** → Ícones  
 - **Google Fonts** → Tipografia
+---
+## 🖥️ Site
+
+- [text](https://gusthavo-melo.github.io/CP4-Front-End)
 
 --- 
-## Autor
+## ✏️ Autor
 
 - Gusthavo Costa de Melo RM: 561330
