@@ -38,7 +38,7 @@ O objetivo é promover produtos sustentáveis e ecológicos, com uma interface *
 ---
 ## 🖥️ Site
 
-- [text](https://gusthavo-melo.github.io/CP4-Front-End)
+- [EcoTrend.com](https://gusthavo-melo.github.io/CP4-Front-End)
 
 --- 
 ## ✏️ Autor
